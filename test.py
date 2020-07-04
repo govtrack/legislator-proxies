@@ -3,7 +3,7 @@
 import csv
 import datetime
 
-for rec in csv.DictReader(open("Remote-Proxy - Sheet1.csv")):
+for rec in csv.DictReader(open("proxy-list.csv")):
   # Check that the IDs are integers.
   int(rec["Remote ID"])
   int(rec["Proxy ID"])
